@@ -1,0 +1,60 @@
+.acordeon {
+  display: flex;
+  flex-direction: column;
+  background: #333;
+  color: #fff;
+  border: none;
+  margin: 10px 0;
+  overflow: hidden;
+  gap: 10px;
+}
+
+.acordeon summary {
+  background: #444;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none; /* remove ícone padrão */
+}
+
+.acordeon summary::-webkit-details-marker {
+  display: none; /* tira setinha padrão */
+}
+
+.acordeon .conteudo {
+  padding: 15px;
+}
+
+.detalhes {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.preco {
+  font-weight: bold;
+}
+
+.status span {
+  color: #00c851; /* verde */
+}
+
+.confirmar {
+  background: #00c851;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.Acompanhamento {
+  background-color: var(--cor-de-fundo);
+  color: var(--branco);
+  text-align: center;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px;
+}
