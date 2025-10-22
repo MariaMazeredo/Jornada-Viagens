@@ -43,6 +43,26 @@
   padding: 20px;
 }
 
+.card.japao{
+  background: url("../IMG/Tokyo.png") no-repeat;
+  background-size: cover;
+}
+
+.card.sanAndreas{
+  background: url("../IMG/san.png") no-repeat;
+  background-size: cover;
+}
+
+.card.paraiba{
+  background: url("../IMG/paraibinha.png") no-repeat;
+  background-size: cover;
+}
+
+.card.manaus{
+  background: url("../IMG/manaus.png") no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 1024px) {
   .card {
     width: 588px;
